@@ -7,7 +7,7 @@ public class MinimumDepthOfBinaryTree {
 
     public MinimumDepthOfBinaryTree() {
         TreeNode root = constructRoot();
-        System.out.println("result: " + minDepth(root));
+        System.out.println("MinimumDepthOfBinaryTree result: " + minDepth(root));
     }
 
     private TreeNode constructRoot() {

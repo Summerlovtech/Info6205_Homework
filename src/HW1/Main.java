@@ -7,5 +7,6 @@ public class Main {
         FindLargestValueInEachTreeRow lver = new FindLargestValueInEachTreeRow();
         DeepestLeavesSum dls = new DeepestLeavesSum();
         LeafSimilar ls = new LeafSimilar();
+        CountCompleteTreeNodes cctn = new CountCompleteTreeNodes();
     }
 }

@@ -3,7 +3,7 @@ package HW1;
 public class CountCompleteTreeNodes {
     public CountCompleteTreeNodes() {
         TreeNode root = constructRoot();
-         System.out.println("result: " + countNodes(root));
+         System.out.println("CountCompleteTreeNodes result: " + countNodes(root));
     }
     public int computeDepth(TreeNode root) {
         int depth = 0;

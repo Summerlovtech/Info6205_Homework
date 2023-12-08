@@ -8,7 +8,7 @@ import java.util.Queue;
 public class FindLargestValueInEachTreeRow {
     public FindLargestValueInEachTreeRow() {
         TreeNode root = constructRoot();
-        System.out.println("result: " + largestValues(root));
+        System.out.println("FindLargestValueInEachTreeRow result: " + largestValues(root));
     }
 
     public List<Integer> largestValues(TreeNode root) {

@@ -8,7 +8,7 @@ import java.util.Queue;
 public class DeepestLeavesSum {
     public DeepestLeavesSum () {
         TreeNode root = constructRoot();
-        System.out.println("result: " + deepestLeavesSum(root));
+        System.out.println("DeepestLeavesSum result: " + deepestLeavesSum(root));
     }
     public int deepestLeavesSum(TreeNode root) {
         if (root == null) {

@@ -8,7 +8,7 @@ public class LeafSimilar {
     public LeafSimilar() {
         TreeNode root1 = constructRoot();
         TreeNode root2 = constructRoot();
-        System.out.println("result: " + leafSimilar(root1, root2));
+        System.out.println("LeafSimilar result: " + leafSimilar(root1, root2));
     }
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         List<Integer> leafs1 = new ArrayList<Integer>();
